@@ -12,7 +12,7 @@
             <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg>
           </div>
           <div class="edu-content">
-            <h3 class="edu-degree">{{ item.degree }}</h3>
+            <h3 class="edu-degree">{{ item.degree[currentLang] }}</h3>
             <div class="edu-school">{{ item.school }}</div>
             <span class="edu-period">{{ item.period }}</span>
             <p class="edu-desc">{{ item.description[currentLang] }}</p>

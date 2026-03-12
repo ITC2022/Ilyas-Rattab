@@ -34,12 +34,12 @@ export const personal = {
 bio: {
   en: [
     'I am a passionate developer living in Berlin, originally from Italy. Technology has fascinated me since childhood, and after years of diverse professional experience across different industries, I finally took the leap to pursue my true calling: software development.',
-    'During my retraining, I had the opportunity to complete a highly formative internship at Fraunhofer  one of Europe\'s leading research institutions where I worked on real-world full-stack projects and deepened my skills in Vue, Node.js, and GraphDB.',
+    'During my developer training, I had the opportunity to complete a highly formative internship at Fraunhofer  one of Europe\'s leading research institutions where I worked on real-world full-stack projects and deepened my skills in Vue, Node.js, and GraphDB.',
     'I live by the motto "per aspera ad astra"  through hardship to the stars. It reflects my belief that meaningful achievements come through persistence, and that every challenge is a step forward on the path to something greater.',
   ],
   it: [
     'Sono uno sviluppatore molto appassionato che vive a Berlino. La tecnologia mi ha affascinato fin da bambino e, dopo anni di esperienze lavorative in settori diversi, ho finalmente seguito la mia vera passione: lo sviluppo software.',
-    'Durante la mia riqualificazione ho avuto l\'opportunità di fare uno stage molto formativo presso il Fraunhofer uno dei principali istituti di ricerca europei dove ho lavorato su progetti full-stack reali con Vue, Node.js e GraphDB.',
+    'Durante la mia formazione da sviluppatore ho avuto l\'opportunità di fare uno stage molto formativo presso il Fraunhofer uno dei principali istituti di ricerca europei dove ho lavorato su progetti full-stack reali con Vue, Node.js e GraphDB.',
     'Vivo secondo il motto "per aspera ad astra" attraverso le difficoltà fino alle stelle. Ogni ostacolo è un passo avanti verso qualcosa di più grande.',
   ],
   de: [
@@ -53,7 +53,7 @@ bio: {
   stats: {
     projects:     12,
     yearsExp:     1,
-    technologies: 10,
+    technologies: "20+",
   },
 }
 
@@ -74,37 +74,17 @@ export const skills = [
   {
     key: 'frontend',
     color: '#3b82f6',
-    items: [
-      { name: 'Vue 3 / Composition API', level: 90 },
-      { name: 'TypeScript',              level: 85 },
-      { name: 'React',                   level: 75 },
-      { name: 'CSS / Tailwind',          level: 88 },
-      { name: 'D3.js',                   level: 70 },
-    ],
+    items: ['Vue 3', 'TypeScript', 'React', 'CSS', 'Tailwind', 'D3.js','Anime.js', 'Bootstrap', 'HTML5'],
   },
   {
     key: 'backend',
     color: '#22c55e',
-    items: [
-      { name: 'Node.js',          level: 88 },
-      { name: 'Express',          level: 85 },
-      { name: 'REST API',         level: 90 },
-      { name: 'GraphDB / SPARQL', level: 75 },
-      {name:'MariaDB/MySQL/PostgresSQL', level: 85},
-      { name: 'Python',           level: 65 },
-    ],
+    items: ['Node.js', 'Express', 'Axios','REST API', 'GraphDB', 'SPARQL', 'Python', 'FastAPI' ,'PHP', 'MariaDB', 'PostgreSQL', 'MySQL'],
   },
   {
     key: 'tools',
     color: '#f59e0b',
-    items: [
-      { name: 'Docker',       level: 80 },
-      { name: 'Git / GitHub / GitLab', level: 92 },
-      { name: 'Linux / CLI',  level: 78 },
-      { name: 'CI/CD',        level: 72 },
-      { name: 'VS Code',      level: 95 },
-      {name: 'Obsidian',      level: 96}
-    ],
+    items: ['Docker', 'Git', 'GitHub', 'GitLab', 'Linux', 'CI/CD', 'VS Code', 'Vite', 'Postman', 'Figma', 'Mermaid'],
   },
 ]
 
@@ -156,34 +136,7 @@ export const experience = [
       de: 'Account-Management über Amazon Seller Central, SEO & SEA, Leistungsüberwachung.',
     },
   },
-  {
-    role:   {de:  'Koch',
-      it: 'Chef',
-      en: 'Chef'
-    } ,
-    company:  'St. Franziskus-Hospital',
-    period:   '10/2017 – 04/2021',
-    location: 'Köln',
-    description: {
-      en: 'Team management, inventory control, quality management (HACCP).',
-      it: 'Gestione del personale, controllo magazzino, gestione qualità (HACCP).',
-      de: 'Personalführung, Warenwirtschaft, Qualitätsmanagement nach HACCP.',
-    },
-  },
-  {
-    role:    {en: "Receptionist",
-      de: 'Rezeptionist',
-      it: 'Receptionist'
-    } ,
-    company:  'Hotel Timone',
-    period:   '09/2013 – 09/2017',
-    location: 'Porto San Giorgio, Italien',
-    description: {
-      en: 'Guest relations, email and phone correspondence.',
-      it: 'Accoglienza ospiti, corrispondenza email e telefonica.',
-      de: 'Kundenbetreuung, E-Mail- und Telefonkorrespondenz.',
-    },
-  },
+ 
 ]
 
 // ------------------------------------------------------------
@@ -191,7 +144,10 @@ export const experience = [
 // ------------------------------------------------------------
 export const education = [
   {
-    degree:   'Umschulung: Fachinformatiker Anwendungsentwicklung',
+    degree:   { en: 'Developer Training: Application Development',
+      de: 'Umschulung: Fachinformatiker Anwendungsentwicklung',
+      it: 'Formazione: Sviluppatore Software'
+    },
     school:   'BBQ-Bauman, Bildung und Qualifizierung',
     period:   '2024 – 06/2026',
     description: {
@@ -201,7 +157,7 @@ export const education = [
     },
   },
   {
-    degree:   'Qualifizierung: E-Commerce Manager',
+    degree:   { en: 'Certification: E-Commerce Manager' , it: 'Certificazione: E-Commerce Manager' , de: 'Qualifizierung: E-Commerce Manager' },
     school:   'IHK Köln',
     period:   '05/2022',
     description: {
@@ -211,7 +167,7 @@ export const education = [
     },
   },
   {
-    degree:   'Grundlagen des digitalen Marketings',
+    degree:    {en: 'Fundamentals of Digital Marketing', it: 'Fondamenti di Marketing Digitale' , de: 'Grundlagen des digitalen Marketings'} ,
     school:   'Google Digital Training',
     period:   '06/2022',
     description: {
@@ -221,7 +177,7 @@ export const education = [
     },
   },
   {
-    degree:   'Fachabitur',
+    degree:   {de:  'Fachabitur' , en:'High School Diploma', it: 'Diploma di Maturità'},
     school:   'Instituto Luigi Einaudi',
     period:   '12/20215',
     description: {
