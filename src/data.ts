@@ -38,7 +38,7 @@ bio: {
     'I live by the motto "per aspera ad astra"  through hardship to the stars. It reflects my belief that meaningful achievements come through persistence, and that every challenge is a step forward on the path to something greater.',
   ],
   it: [
-    'Sono uno sviluppatore molto appassionato che vive a Berlino, originario dell\'Italia. La tecnologia mi ha affascinato fin da bambino e, dopo anni di esperienze lavorative in settori diversi, ho finalmente seguito la mia vera passione: lo sviluppo software.',
+    'Sono uno sviluppatore molto appassionato che vive a Berlino. La tecnologia mi ha affascinato fin da bambino e, dopo anni di esperienze lavorative in settori diversi, ho finalmente seguito la mia vera passione: lo sviluppo software.',
     'Durante la mia riqualificazione ho avuto l\'opportunità di fare uno stage molto formativo presso il Fraunhofer uno dei principali istituti di ricerca europei dove ho lavorato su progetti full-stack reali con Vue, Node.js e GraphDB.',
     'Vivo secondo il motto "per aspera ad astra" attraverso le difficoltà fino alle stelle. Ogni ostacolo è un passo avanti verso qualcosa di più grande.',
   ],
