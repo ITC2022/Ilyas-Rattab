@@ -112,6 +112,17 @@ export const skills = [
 //  EXPERIENCE — most recent first
 // ------------------------------------------------------------
 export const experience = [
+    {
+    role:     'Full Stack Developer (Praktikum)',
+    company:  'Fraunhofer (IPK)',
+    period:   '09/2025 – 03/2026',
+    location: 'Berlin',
+    description: {
+      en: 'Full stack development with focus on backend architecture, REST API design, containerization with Docker, and deployment on a virtual machine. Stack: Vue 3, Node.js, TypeScript, GraphDB, SPARQL.',
+      it: 'Sviluppo full stack con focus su architettura backend, design di REST API, containerizzazione con Docker e deployment su macchina virtuale. Stack: Vue 3, Node.js, TypeScript, GraphDB, SPARQL.',
+      de: 'Full-Stack-Entwicklung mit Schwerpunkt auf Backend-Architektur, REST-API-Design, Containerisierung mit Docker und Deployment auf einer virtuellen Maschine. Stack: Vue 3, Node.js, TypeScript, GraphDB, SPARQL.',
+    },
+  },
   {
     role:     'Sales Manager',
     company:  'Fenchem Biochemie GmbH',
@@ -126,7 +137,7 @@ export const experience = [
   {
     role:     'E-Commerce Manager',
     company:  'Warnke Marketing Services GmbH',
-    period:   '04/2021– 01/2023',
+    period:   '04/2021 – 01/2023',
     location: 'Köln',
     description: {
       en: 'Amazon Seller Central account management, SEO & SEA, performance monitoring.',
