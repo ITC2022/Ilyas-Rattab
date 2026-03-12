@@ -113,7 +113,12 @@ export const skills = [
 // ------------------------------------------------------------
 export const experience = [
     {
-    role:     'Full Stack Developer (Praktikum)',
+    role:     {de:'Full Stack Developer (Praktikum)',
+      en: 'Full Stack Developer (Stage)',
+      it: 'Full Stack Developer (Stage)'
+
+    }
+    ,
     company:  'Fraunhofer (IPK)',
     period:   '09/2025 – 03/2026',
     location: 'Berlin',
@@ -124,7 +129,10 @@ export const experience = [
     },
   },
   {
-    role:     'Sales Manager',
+    role:    {de:'Sales Manager',
+      it: 'Sales Manager',
+      en: 'Sales Manager'
+     } ,
     company:  'Fenchem Biochemie GmbH',
     period:   '01/2023 – 05/2023',
     location: 'Köln',
@@ -135,7 +143,10 @@ export const experience = [
     },
   },
   {
-    role:     'E-Commerce Manager',
+    role:  {de: 'E-Commerce Manager',
+      en: 'E-Commerce Manager',
+      it: 'E-Commerce Manager'
+    }   ,
     company:  'Warnke Marketing Services GmbH',
     period:   '04/2021 – 01/2023',
     location: 'Köln',
@@ -146,7 +157,10 @@ export const experience = [
     },
   },
   {
-    role:     'Koch',
+    role:   {de:  'Koch',
+      it: 'Chef',
+      en: 'Chef'
+    } ,
     company:  'St. Franziskus-Hospital',
     period:   '10/2017 – 04/2021',
     location: 'Köln',
@@ -157,7 +171,10 @@ export const experience = [
     },
   },
   {
-    role:     'Rezeptionist',
+    role:    {en: "Receptionist",
+      de: 'Rezeptionist',
+      it: 'Receptionist'
+    } ,
     company:  'Hotel Timone',
     period:   '09/2013 – 09/2017',
     location: 'Porto San Giorgio, Italien',

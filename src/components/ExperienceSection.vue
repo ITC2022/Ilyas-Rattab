@@ -12,7 +12,7 @@
           <div class="timeline-card">
             <div class="card-top">
               <div>
-                <h3 class="exp-role">{{ item.role }}</h3>
+                <h3 class="exp-role">{{ item.role[currentLang] }}</h3>
                 <div class="exp-company">{{ item.company }}</div>
               </div>
               <div class="exp-meta">
