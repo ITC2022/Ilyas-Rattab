@@ -6,7 +6,7 @@ import vueDevTools from 'vite-plugin-vue-devtools'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: '/Ilyas-Rattab',
+  base: '/Ilyas-Rattab/',
   plugins: [
     vue(),
     vueDevTools(),
