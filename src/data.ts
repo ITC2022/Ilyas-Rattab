@@ -64,7 +64,7 @@ export const contact = {
   email:    'rattab.ilyas@outlook.com',
   github:   'github.com/ITC2022',
   linkedin: 'linkedin.com/in/ilyas-rattab',
-  cvFile:   '/cv.pdf',
+  cvFile:   './cv.pdf',
 }
 
 // ------------------------------------------------------------

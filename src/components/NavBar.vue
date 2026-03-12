@@ -16,7 +16,7 @@
           </a>
         </li>
         <li>
-          <a href="/cv.pdf" target="_blank" class="nav-cv">
+          <a :href="contact.cvFile" target="_blank" class="nav-cv">
             <span>{{ t.nav.cv }}</span>
             <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
           </a>
@@ -51,7 +51,7 @@
         @click.prevent="scrollTo(item.id)">
         {{ item.label }}
       </a>
-      <a href="/cv.pdf" target="_blank" class="mobile-link mobile-cv">{{ t.nav.cv }}</a>
+      <a :href="contact.cvFile" target="_blank" class="mobile-link mobile-cv">{{ t.nav.cv }}</a>
     </div>
   </nav>
 </template>
@@ -60,6 +60,7 @@
 import { ref, computed, onMounted, onUnmounted } from 'vue'
 import { useI18n, type Lang } from '../composables/useI18n'
 import { useTheme } from '../composables/useTheme'
+import { contact } from '../data'
 
 const { t, currentLang, setLang } = useI18n()
 const { isDark, toggleTheme } = useTheme()
