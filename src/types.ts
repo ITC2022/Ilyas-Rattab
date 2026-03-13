@@ -21,7 +21,7 @@ export interface TranslatedArray {
 export interface PersonalStats {
   projects: number
   yearsExp: number
-  technologies: number
+  technologies: string
 }
 
 export interface Personal {
