@@ -1,5 +1,5 @@
 // ============================================================
-//  types.ts — Shared TypeScript interfaces for the portfolio
+//  types.ts — Data types
 // ============================================================
 
 export type Lang = 'en' | 'it' | 'de'
@@ -69,4 +69,75 @@ export interface Project {
   demo: string
   stack: string[]
   description: Translated
+}
+
+// ============================================================
+//  UI / i18n translations
+// ============================================================
+
+export interface NavTranslations {
+  about: string
+  skills: string
+  experience: string
+  education: string
+  contact: string
+  cv: string
+}
+
+export interface HeroTranslations {
+  greeting: string
+  cta: string
+  ctaContact: string
+}
+
+export interface StatsLabels {
+  projects: string
+  yearsExp: string
+  technologies: string
+}
+
+export interface AboutTranslations {
+  title: string
+  subtitle: string
+  available: string
+  stats: StatsLabels
+  readMore: string
+  readLess: string
+}
+
+export interface SkillsTranslations {
+  title: string
+  subtitle: string
+  frontend: string
+  backend: string
+  tools: string
+}
+
+export interface SectionTranslations {
+  title: string
+  subtitle: string
+}
+
+export interface ContactTranslations {
+  title: string
+  subtitle: string
+  email: string
+  github: string
+  linkedin: string
+}
+
+export interface FooterTranslations {
+  built: string
+  rights: string
+}
+
+export interface UiTranslations {
+  nav: NavTranslations
+  hero: HeroTranslations
+  about: AboutTranslations
+  skills: SkillsTranslations
+  experience: SectionTranslations
+  education: SectionTranslations
+  contact: ContactTranslations
+  footer: FooterTranslations
 }

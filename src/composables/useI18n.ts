@@ -1,6 +1,5 @@
 import { ref, computed } from 'vue'
-
-export type Lang = 'en' | 'it' | 'de'
+import type { Lang, UiTranslations } from '../types'
 
 // Shared across all components
 const currentLang = ref<Lang>('en')
