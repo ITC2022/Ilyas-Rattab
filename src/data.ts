@@ -33,20 +33,20 @@ export const personal = {
 
   // About section — 3 paragraphs (translated)
   bio: {
-    en: [
-      'I am a passionate developer living in Berlin, originally from Italy. Technology has fascinated me since childhood, and after years of diverse professional experience across different industries, I finally took the leap to pursue my true calling: software development.',
-      "During my developer training, I had the opportunity to complete a highly formative internship at Fraunhofer  one of Europe's leading research institutions where I worked on real-world full-stack projects and deepened my skills in Vue, Node.js, and GraphDB.",
-      'I live by the motto "per aspera ad astra"  through hardship to the stars. It reflects my belief that meaningful achievements come through persistence, and that every challenge is a step forward on the path to something greater.',
-    ],
     it: [
-      'Sono uno sviluppatore molto appassionato che vive a Berlino. La tecnologia mi ha affascinato fin da bambino e, dopo anni di esperienze lavorative in settori diversi, ho finalmente seguito la mia vera passione: lo sviluppo software.',
-      "Durante la mia formazione da sviluppatore ho avuto l'opportunità di fare uno stage molto formativo presso il Fraunhofer uno dei principali istituti di ricerca europei dove ho lavorato su progetti full-stack reali con Vue, Node.js e GraphDB.",
-      'Vivo secondo il motto "per aspera ad astra" attraverso le difficoltà fino alle stelle. Ogni ostacolo è un passo avanti verso qualcosa di più grande.',
+      'Sono uno sviluppatore appassionato che vive a Berlino, cresciuto in Italia. La tecnologia mi ha affascinato fin da bambino e, dopo anni di esperienze lavorative in settori diversi, ho finalmente seguito la mia vera passione: lo sviluppo software.',
+      "Durante la mia formazione da sviluppatore ho avuto l'opportunità di svolgere uno stage molto formativo presso il Fraunhofer, uno dei principali istituti di ricerca europei, dove ho lavorato su progetti full-stack reali con Vue, Node.js e GraphDB.",
+      'Vivo secondo il motto "per aspera ad astra": attraverso le difficoltà fino alle stelle. Credo fermamente che i traguardi più significativi nascano dalla perseveranza e che ogni ostacolo sia un passo avanti verso qualcosa di più grande.',
+    ],
+    en: [
+      'I am a passionate developer living in Berlin, raised in Italy. Technology has fascinated me since childhood, and after years of diverse professional experience across different industries, I finally took the leap to pursue my true calling: software development.',
+      "During my developer training, I had the opportunity to complete a highly formative internship at Fraunhofer, one of Europe's leading research institutions, where I worked on real-world full-stack projects and deepened my skills in Vue, Node.js, and GraphDB.",
+      'I live by the motto "per aspera ad astra": through hardship to the stars. It reflects my belief that meaningful achievements come through persistence, and that every challenge is a step forward on the path to something greater.',
     ],
     de: [
-      'Ich bin ein leidenschaftlicher Entwickler, der in Berlin lebt  ursprünglich aus Italien. Seit meiner Kindheit begeistere ich mich für Technologie, und nach Jahren vielfältiger Berufserfahrung in verschiedenen Branchen habe ich endlich den Schritt gewagt, meinem eigentlichen Traum zu folgen: der Softwareentwicklung.',
-      'Während meiner Umschulung durfte ich ein sehr prägendes Praktikum beim Fraunhofer-Institut absolvieren einer der führenden Forschungseinrichtungen Europas  wo ich an realen Full-Stack-Projekten mit Vue, Node.js und GraphDB gearbeitet habe.',
-      '"Per aspera ad astra"  durch Mühsal zu den Sternen. Dieses Motto begleitet mich täglich: Ich glaube daran, dass echte Leistung durch Ausdauer entsteht und jede Herausforderung ein Schritt nach vorne ist.',
+      'Ich bin ein leidenschaftlicher Entwickler, der in Berlin lebt, aufgewachsen in Italien. Seit meiner Kindheit begeistere ich mich für Technologie, und nach Jahren vielfältiger Berufserfahrung in verschiedenen Branchen habe ich endlich den Schritt gewagt, meinem eigentlichen Traum zu folgen: der Softwareentwicklung.',
+      'Während meiner Umschulung durfte ich ein sehr prägendes Praktikum beim Fraunhofer-Institut absolvieren, einer der führenden Forschungseinrichtungen Europas, wo ich an realen Full-Stack-Projekten mit Vue, Node.js und GraphDB gearbeitet habe.',
+      '"Per aspera ad astra": durch Mühsal zu den Sternen. Dieses Motto begleitet mich täglich: Ich glaube daran, dass echte Leistung durch Ausdauer entsteht und jede Herausforderung ein Schritt nach vorne ist.',
     ],
   },
 
